@@ -21,3 +21,17 @@ let myObj= {
 const myFunction = function(){
     console.log("Hello")
 }
+
+
+
+//Stack(Primitive) and Heap(NOn Primitive)
+let myChannel = "Gemini"
+let anotherName = myChannel
+anotherName = "NTV"
+console.log(anotherName)
+
+
+
+//Primtive have copies
+//Non primitives may different references pointing to same object in heap so change in one results inn another
+
