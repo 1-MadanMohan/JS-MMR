@@ -12,3 +12,11 @@ console.log(num1 +num2);
 }
 addNum(3,4)
 addNum(3,"a")
+
+
+
+
+function loginUserMessage(username){
+    return `${username} just logged in`
+}
+console.log(loginUserMessage("ray"));
