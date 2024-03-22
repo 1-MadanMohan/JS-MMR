@@ -5,9 +5,10 @@ var c =30
 
 
 if(true){
-  let a =11// doesn't print 111
-  a =12 // print 11;
+  let a =11// doesn't print 11
+  a =12 // print 12 if no above statement otherwise 10;
  b =20;
+ var b =22;
  const v = 20;
  var d = 21;
  let e =24
