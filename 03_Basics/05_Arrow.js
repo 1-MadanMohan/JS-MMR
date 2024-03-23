@@ -47,6 +47,10 @@ chai()//undefined for this.username and empty for "this"
 // }
 const addTwo = (num1,num2)=> num1+ num2;
 const addTwo1 = (num1,num2)=> (num1+ num2);
+const addTwo3 = (num1,num2)=> ({username: "madan"});
+const addTwo4 = (num1,num2)=> {username: "madan"};
 //return for {}, no return for ()
 console.log(addTwo(8,89))
 console.log(addTwo1(8,89))
+console.log(addTwo3(8,89))// returning object
+console.log(addTwo4(8,89))//undefined , need brackets(paranthesis) to return object
