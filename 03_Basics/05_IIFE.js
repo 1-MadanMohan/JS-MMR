@@ -9,15 +9,17 @@
 
 (function chai()
 {
-    console.log(`DB connected`);
+    console.log(`DB connected me}`);
 })();
+
+;
 
 // (defintion)(execution)
 //To get rid of pollution by global scope
 
-(()=> {
-    console.log(`DB CONNECTED TWO`);
-})()
+((name)=> {
+    console.log(`DB CONNECTED TWO ${name}`);
+})('sai')
 //Error if no semicolan at 13
 
 
