@@ -22,3 +22,4 @@ class User {
 
 const hitesh = new User("h@.ai", "abc")
 console.log(hitesh.email);
+console.log(hitesh.password);
