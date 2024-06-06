@@ -1,5 +1,5 @@
 const user = {
-    username: "hitesh",
+    username: "Maddy",
     loginCount: 8,
     signedIn: true,
 
@@ -13,8 +13,8 @@ const user = {
 
 
 
-//console.log(user.username)
-//console.log(user.getUserDetails());
+// console.log(user.username)
+// console.log(user.getUserDetails());
 // console.log(this);
 
 
