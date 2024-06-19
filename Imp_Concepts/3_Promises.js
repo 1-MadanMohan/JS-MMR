@@ -42,9 +42,6 @@ console.log("hello");
 
 
 
-
-
-
 //Now, let's rewrite the same example using promises, which flattens the structure and makes it more readable.
 function fetchData() {
     return new Promise((resolve, reject) => {
@@ -87,3 +84,8 @@ fetchData()
 
 console.log("hello");
 
+//Advantages of Promises
+// Readability: Promises improve code readability by avoiding deeply nested structures. The .then method allows chaining asynchronous operations in a linear sequence.
+// Error Handling: Promises provide a unified way to handle errors using .catch, which can handle errors from any part of the promise chain.
+// Chaining: Promises support chaining, allowing sequential execution of asynchronous tasks. Each .then returns a new promise, enabling a smooth flow of operations.
+// Avoiding Callback Hell: Promises help avoid callback hell, making the code cleaner and easier to understand.
