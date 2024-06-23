@@ -1,7 +1,7 @@
 //Basic Structure of a Promise
 const myPromise = new Promise((resolve, reject) => {
     // Perform some asynchronous operation
-    if (/* operation is successful */) {
+    if (/* operation is successful */ true) {
       resolve('Success!');
     } else {
       reject('Failure.');
